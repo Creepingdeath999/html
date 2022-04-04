@@ -1,0 +1,23 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+textarea,
+button {
+  background-color: transparent;
+  border: 1px solid red;
+  outline: none;
+  padding: 10px;
+}
+
+.contact-form button {
+  cursor: pointer;
+  transition-duration: 0.3;
+}
+button :hover {
+  background: red;
+  color: #fff;
+}

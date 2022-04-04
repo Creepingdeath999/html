@@ -1,0 +1,55 @@
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+  font-family: "ArchyEDT-Bold", sans-serif;
+}
+* {
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+}
+.content-wrapper {
+  box-shadow: 0 0 50px red;
+  padding: 50px;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.navigation h1 {
+  border: 1px solid red;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 50px red;
+  transition-duration: 0.2s;
+}
+
+.navigation h1:hover {
+  transform: scale(1.02);
+}
+
+.main-header {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-header a {
+  font-size: 2rem;
+  color: red;
+}
+::placeholder {
+  color: inherit;
+  font-family: inherit;
+}
